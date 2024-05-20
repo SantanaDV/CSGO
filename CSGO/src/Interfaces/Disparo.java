@@ -4,10 +4,15 @@
  */
 package Interfaces;
 
+import Clases.Jugador;
+
 /**
  *
  * @author santa
  */
 public interface Disparo {
-    
+
+    int disparar(Jugador objetivo, String parteCuerpo);
+
+    boolean recibirDisparo(int daño);
 }

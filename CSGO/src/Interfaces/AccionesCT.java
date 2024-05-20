@@ -4,10 +4,14 @@
  */
 package Interfaces;
 
+import Clases.Explosivo;
+
 /**
  *
  * @author santa
  */
 public interface AccionesCT {
-    
+
+    boolean desactivaExplosivo(Explosivo explosivo);
+
 }

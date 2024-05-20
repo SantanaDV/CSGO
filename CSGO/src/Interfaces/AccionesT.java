@@ -4,10 +4,18 @@
  */
 package Interfaces;
 
+import Clases.Explosivo;
+
 /**
  *
  * @author santa
  */
 public interface AccionesT {
-    
+
+    Explosivo plantarExplosivo();
+
+    Explosivo dropExplosivo();
+
+    boolean pickExplosivo();
+
 }

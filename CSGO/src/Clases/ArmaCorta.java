@@ -8,6 +8,30 @@ package Clases;
  *
  * @author santa
  */
-public class ArmaCorta {
-    
+public class ArmaCorta extends Arma {
+
+    public ArmaCorta(String nombre, double multiplicadorDanio) {
+        super(nombre, multiplicadorDanio);
+    }
+
+    @Override
+    public void setMultiplicadorDanio(double multiplicadorDanio) {
+        super.setMultiplicadorDanio(multiplicadorDanio);
+    }
+
+    @Override
+    public double getMultiplicadorDanio() {
+        return super.getMultiplicadorDanio();
+    }
+
+    @Override
+    public void setNombre(String nombre) {
+        super.setNombre(nombre);
+    }
+
+    @Override
+    public String getNombre() {
+        return super.getNombre();
+    }
+
 }
